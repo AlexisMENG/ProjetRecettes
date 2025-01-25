@@ -1,0 +1,126 @@
+
+[
+    {
+        "id": 1,
+        "nom": "Paris-Brest",
+        "prix": 5,
+        "image": "image/Paris_brest.jpg",
+        "description": "Pâtisserie de forme arrondie imitant la roue d’une bicyclette, et qui est composée d’une pâte à choux fourrée à la crème mousseline pralinée, parsemée d’un mélange d’amande effilée, de noisettes et de sucre glace.",
+        "disponible": true,
+        "favori": true,
+        "decoupe": "1 part"
+
+    },
+
+ 
+    {
+        "id": 2,
+        "nom": "Chouquettes",
+        "prix": 2.50,
+        "image": "image/chouquette.jpg",
+        "description": "Les chouquettes sont des bouchées de pâte à choux, saupoudrées de perles de sucre. ",
+        "disponible": true,
+        "favori": true,
+        "decoupe": "prix pour 100g"
+    },
+
+    {
+        "id": 3,
+        "nom": "Charlotte aux fraises",
+        "prix": 28,
+        "image": "image/charlotte_aux_fraises.jpg",
+        "description": "Composée de biscuits cuillères, d’une bavaroise et de délicieuses fraises fraîches, ce gâteau ravira les petits comme les grands.",
+        "disponible": false,
+        "favori": false,
+        "decoupe": "6 parts"
+    },
+
+    
+    {
+        "id": 4,
+        "nom": "Millefeuille",
+        "prix": 4,
+        "image": "image/millefeuille.jpg",
+        "description": "Il compte trois couches entre lesquelles sont disposées deux couches de crème pâtissière à la noix de coco, pralinée, au moka, au caramel, à l’amande ou encore à la vanille.",
+        "disponible": true,
+        "favori": false,
+        "decoupe": "1 part"
+    },
+
+    {
+        "id": 5,
+        "nom": "Tropézienne",
+        "prix": 22,
+        "image": "image/tropezienne.jpg",
+        "description": "Ce gâteau avec ses deux brioches sucrées rassemblées en leur centre par un subtil mélange de crème pâtissière et de crème au beurre est devenu une pâtisserie au succès retentissant.",
+        "disponible": true,
+        "favori": false,
+        "decoupe": "6 parts"
+    },
+
+    {
+        "id": 6,
+        "nom": "Kouign amann",
+        "prix": 3.90,
+        "image": "image/kouign_amann.jpg",
+        "description": "Le kouign-amann est élaboré à partir de 40 % de pâte à pain, recouverte d'un mélange de 30 % de beurre demi-sel et 30 % de sucre, puis repliée en feuilletage et scarifiée de losanges sur la face supérieure.",
+        "disponible": true,
+        "favori": true,
+        "decoupe": "1 part"
+    },
+
+    {
+        "id": 7,
+        "nom": "Religieuse",
+        "prix": 4.80,
+        "image": "image/religieuse.jpg",
+        "description": "La religieuse se compose d’un chou garni de crème pâtissière et recouvert d’un fondant du même parfum que ladite crème. Ce premier chou est surmonté d’un autre chou identique mais plus petit et les deux sont fixés l’un sur l’autre, grâce à une crème au beurre.",
+        "disponible": true,
+        "favori": false,
+        "decoupe": "1 part"
+    },
+
+    {
+        "id": 8,
+        "nom": "Fondant au chocolat",
+        "prix": 3.80,
+        "image": "image/fondant_au_chocolat.jpg",
+        "description": "Ce délice chocolaté a été inventé par un chef français dans sa jeunesse, Michel Bras qui était fasciné par le chocolat. C’est durant ses études loin du domicile familial qu’il expérimentait sur des desserts et finit par créer un fondant au chocolat : un “noyau” au chocolat fondant qu’il plaça dans un biscuit léger lui aussi au chocolat. Le fondant a été décliné à bien des sauces et on parle souvent de « moelleux au chocolat”, ou de “mi-cuit au Chocolat”, c’est un dessert qui explore matière, sensation et utilisation du chocolat.",
+        "disponible": true,
+        "favori": false,
+        "decoupe": "1 part"
+    },
+
+    {
+        "id": 9,
+        "nom": "Opéra",
+        "prix": 5.20,
+        "image": "image/opera.jpg",
+        "description": "Cette pâtisserie est constituée de 3 carrés de biscuit Joconde imbibé de sirop au café, de ganache au chocolat et de crème au beurre au café.",
+        "disponible": false,
+        "favori": false,
+        "decoupe": "1 part"
+    },
+
+    {
+        "id": 10,
+        "nom": "Fraisier",
+        "prix": 28,
+        "image": "image/fraisier.jpg",
+        "description": "Son actuelle version est composée d’une génoise à la pistache, d’une crème mousseline vanille, de fraises et une fine pâte d’amande serait apparue dans les années 60, avant d’être popularisée par la maison Lenôtre.",
+        "disponible": true,
+        "favori": true,
+        "decoupe": "6 parts"
+    },
+
+    {
+        "id": 11,
+        "nom": "Saint Honoré",
+        "prix": 30,
+        "image": "image/saint_honore.jpg",
+        "description": "Le Saint Honoré est un dessert composé d’une pâte feuilletée à l’intérieur de laquelle on retrouve des boules de pâte à choux garnies de crème chiboust. Les boules sont fixées à la pâte par du caramel.",
+        "disponible": true,
+        "favori": false,
+        "decoupe": "6 parts"
+    }
+]

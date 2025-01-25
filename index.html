@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Société fictive Pâtisserie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vidaloka&display=swap" rel="stylesheet">
+    <script type="module" src="script.js" defer></script>
+    
+    
+</head>
+<body>
+
+    <!--Navigation-->
+        <nav>
+            <div class="logo">
+                <img src="image/logo.jpg">
+            </div>
+
+            <ul>
+                <li><a>Presentation</a></li>
+                <li><a href="#favoris">Nos favoris</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#commandes">Commande</a></li>
+                <li><a href="#equipe">L'equipe</a></li>
+            </ul>
+
+            <div class="icon">
+                <a href="https://www.facebook.com/"><img class="image_icon" src="image/square-facebook.svg"></a>
+                <a href="https://www.instagram.com/"><img class="image_icon" src="image/square-instagram.svg"></a>
+            </div>
+
+        </nav>
+
+
+        <!--Presentation-->
+
+        <main>
+
+            <div class="main_text">
+
+                <h1 id="introduction">Société fictive Pâtisserie</h1>
+                <span>Amboise (37400) </span>
+                
+
+
+            </div>
+
+            <div class="main_image" >
+                <img src="image/main_img.png" title="image principale représentant une patisserie">
+            </div>
+
+        </main>
+
+
+
+    <!--Favoris-->
+
+    <div class="favoris" id="favoris">
+        <h1>Les favoris de nos consommateurs</h1>
+
+        <div id="ensemble_favoris" class="ensemble_fiches">
+           
+            
+        </div>
+
+    </div>
+
+
+
+
+    <!--Galerie-->
+
+    <div class="galerie" id="galerie">
+
+        <h1>Galerie</h1>
+        
+        <section class="filtres">
+
+            <button class="btn_croissant">Trier par prix croissant</button>
+
+            <button class="btn_decroissant">Trier par prix décroissant</button>
+            <br>
+            <button class="btn_filtrer">Afficher seulement les patisseries disponibles</button>
+            <br>
+            <button class="btn_tout">Afficher toutes les patisseries</button>
+            <br>
+            
+            
+        </section>
+
+   
+
+        <div class=ensemble_fiches>
+
+
+       
+        </div>
+        <div id="panier">
+    
+    </div>
+
+    </div>
+
+ 
+
+    <!--Commandes-->
+
+    <div class="commandes" id="commandes">
+        <h1>Commandes</h1>
+
+        <div class="commandes_main">
+
+
+            <form>
+
+                <div class="input">
+                    <p>Nom</p>
+                    <input type="text" name="nom" id="nom"  placeholder="Votre nom">
+                </div>
+
+                <div class="input">
+                    <p>Prenom</p>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+                </div>
+
+                <div class="input">
+                    <p>Numéro de téléphone</p>
+                    <input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone"  maxlength="10" >
+                </div>
+                <div class="input" id="choix_livraison">
+                    <p>Souhaitez vous être livré(e) ?</p>
+                    <div class="bouton_livraison">
+                    <label for="livraison_oui">Oui</label><br>
+                    <input type="radio" name="livraison" id="livraison_oui"  placeholder="Votre adresse postale">
+                    <label for="livraison_non">Non</label><br>
+                    <input type="radio" name="livraison" id="livraison_non"  placeholder="Votre adresse postale" checked="true">
+                </div>
+                </div>
+
+                <div id="adresse_postale" class="input invisible">
+                    <p>Adresse postale si livraison</p>
+                    <textarea name="adresse" id="adresse" placeholder="Votre adresse postale" rows="10" cols="50"></textarea>
+                </div>
+
+                <input type="submit" class="bouton_valider" value="Valider">
+
+                
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Equipe-->
+
+    <div class="equipe" id="equipe">
+        <h1>L'équipe</h1>
+
+        <div class="team_box">
+            
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+[
+    {
+        "id": 1,
+        "nom": "chef1",
+        "image": "image/robot1.jpg",
+        "bio":  "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+
+ 
+    {
+        "id": 2,
+        "nom": "chef2",
+        "image": "image/robot2.jpg",
+        "bio":  "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+
+    {
+        "id": 3,
+        "nom": "chef3",
+        "image": "image/robot3.jpg",
+        "bio":  "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+ 
+    {
+        "id": 4,
+        "nom": "chef4",
+        "image": "image/robot4.jpg",
+        "bio":  "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+
+
+
+]
